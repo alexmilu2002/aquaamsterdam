@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+ul {
+    justify-content: center;
+    list-style-type: none;
+    display: flex;
+}
+
+li a{
+    display: block;
+    color: #E08426;
+    text-align: center;
+    text-decoration: none;
+    padding: 0.5rem;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #20BDC0;
+}
+
+main {
+    flex: 1; /* Allow the main content to grow and push the footer to the bottom. */
+}
+
+h1 {
+    background-color: #0B6f70;
+    color: #E08426;
+    text-align: center;
+    padding: 0.5rem;
+}
+
+footer {
+    background-color: #0B6f70;
+}
+
+footer nav ul li img{
+    max-width: 40px;
+    max-height: 40px;
+}
