@@ -5,20 +5,6 @@
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-ul {
-    justify-content: center;
-    list-style-type: none;
-    display: flex;
-}
-
-li a{
-    display: block;
-    color: #E08426;
-    text-align: center;
-    text-decoration: none;
-    padding: 0.5rem;
-}
-
 body {
     display: flex;
     flex-direction: column;
@@ -30,8 +16,6 @@ body {
 .Logo1 {
     max-width: 150px;
     max-height: 150px;
-    /* justify-content: center;
-    align-items: center; */
     margin-top: 1rem;
     margin-right: 7rem;
     margin-left: 7rem;
@@ -59,11 +43,75 @@ h1 {
     padding: 0.5rem;
 }
 
+.feitjes ul {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    background-color: white;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-right: 1em;
+    padding-left: 2rem;
+    border-radius: 5%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.feitjes {
+    margin-top: 2rem;
+    margin-bottom: 7rem;
+    
+}
+
+.feitjesfoto1 {
+    background-image: url(images/watertap1.jpg);
+    min-height: 120px;
+    background-attachment: fixed;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.feitjesfoto2 {
+    background-image: url(images/watertap2.jpg);
+    min-height: 120px;
+    background-attachment: fixed;
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.feitjesfoto3 {
+    background-image: url(/images/watertap3.jpg);
+    min-height: 120px;
+    background-attachment: fixed;
+    background-position-x: center;
+    background-position-y: bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
 footer {
     background-color: #0B6f70;
+    position: fixed;
+    bottom: 0;
 }
 
 footer nav ul li img{
     max-width: 40px;
     max-height: 40px;
+}
+
+footer ul {
+    justify-content: center;
+    list-style-type: none;
+    display: flex;
+}
+
+footer li a{
+    display: block;
+    color: #E08426;
+    text-align: center;
+    text-decoration: none;
+    padding: 0.5rem;
 }
