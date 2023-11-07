@@ -27,8 +27,29 @@ body {
     background-color: #20BDC0;
 }
 
+.Logo1 {
+    max-width: 150px;
+    max-height: 150px;
+    /* justify-content: center;
+    align-items: center; */
+    margin-top: 1rem;
+    margin-right: 7rem;
+    margin-left: 7rem;
+    margin-bottom: 1rem;  
+}
+
 main {
     flex: 1; /* Allow the main content to grow and push the footer to the bottom. */
+}
+
+p {
+    background-color: white;
+    color: #0B6f70;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    padding: 1rem;
+    border-radius: 5%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 h1 {
