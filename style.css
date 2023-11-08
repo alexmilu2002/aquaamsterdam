@@ -11,29 +11,11 @@ body {
     min-height: 100vh;
     margin: 0;
     background-color: #20BDC0;
-}
-
-.Logo1 {
-    max-width: 150px;
-    max-height: 150px;
-    margin-top: 1rem;
-    margin-right: 7rem;
-    margin-left: 7rem;
-    margin-bottom: 1rem;  
+    color: #0B6f70;
 }
 
 main {
     flex: 1; /* Allow the main content to grow and push the footer to the bottom. */
-}
-
-p {
-    background-color: white;
-    color: #0B6f70;
-    margin-left: 2rem;
-    margin-right: 2rem;
-    padding: 1rem;
-    border-radius: 5%;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 h1 {
@@ -43,24 +25,31 @@ h1 {
     padding: 0.5rem;
 }
 
-.feitjes ul {
-    margin-left: 2rem;
-    margin-right: 2rem;
-    background-color: white;
-    color: #0B6f70;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    padding-right: 1em;
-    padding-left: 2rem;
-    border-radius: 5%;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+.Logo1 {
+    max-width: 150px;
+    max-height: 150px;  
+    margin: 1rem 7rem ;
 }
 
+.welkomstekst {
+    background-color: white;
+    margin: 0rem 2rem;
+    border-radius: 5%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 1rem;
+}
 
 .feitjes {
-    margin-top: 2rem;
-    margin-bottom: 7rem;
-    
+    margin: 2rem 0rem 7rem 0rem;
+}
+
+.feitjes ul {
+    margin: 0rem 2rem;
+    background-color: white;
+    padding: 1rem 1rem 1rem 2rem;
+    border-radius: 5%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .feitjesfoto1 {
@@ -70,6 +59,9 @@ h1 {
     background-position-x: center;
     background-repeat: no-repeat;
     background-size: contain;
+    margin: 0rem 2rem;
+    border-radius: 5%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .feitjesfoto2 {
@@ -80,6 +72,9 @@ h1 {
     background-position-y: center;
     background-repeat: no-repeat;
     background-size:cover;
+    margin: 0rem 2rem;
+    border-radius: 5%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .feitjesfoto3 {
@@ -90,6 +85,41 @@ h1 {
     background-position-y: bottom;
     background-repeat: no-repeat;
     background-size: contain;
+    margin: 0rem 2rem;
+    border-radius: 5%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.map {
+    max-width: 83%;
+    margin: 2rem 2rem 0rem 2rem;
+    padding: 0.3rem;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5%;
+}
+.locatekst {
+    background-color: white;
+    margin: 0rem 2rem 7rem;
+    padding: 1rem 1rem 1rem 2rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5%;
+}
+
+.locatekst p{
+    padding: 1rem 0rem;
+}
+
+.locatekst h2 {
+    color: #E08426;
+}
+
+.locatekst ol li {
+    margin-left: 1rem;
+}
+
+.locaties ol li {
+    padding: 0.2rem 0rem;
 }
 
 footer {
@@ -98,21 +128,20 @@ footer {
     bottom: 0;
 }
 
-footer nav ul li img{
-    max-width: 40px;
-    max-height: 40px;
-}
-
 footer ul {
     justify-content: center;
     list-style-type: none;
     display: flex;
 }
 
-footer li a{
+footer li a {
     display: block;
     color: #E08426;
     text-align: center;
     text-decoration: none;
     padding: 0.5rem;
+
+}footer nav ul li img {
+    max-width: 40px;
+    max-height: 40px;
 }
