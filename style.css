@@ -83,7 +83,7 @@ h1 {
 }
 
 .feitjesfoto3 {
-    background-image: url(/images/watertap3.jpg);
+    background-image: url(images/watertap3.jpg);
     min-height: 120px;
     background-attachment: fixed;
     background-position-x: center;
