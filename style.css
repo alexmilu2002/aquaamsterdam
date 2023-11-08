@@ -47,6 +47,7 @@ h1 {
     margin-left: 2rem;
     margin-right: 2rem;
     background-color: white;
+    color: #0B6f70;
     padding-top: 1rem;
     padding-bottom: 1rem;
     padding-right: 1em;
@@ -72,7 +73,7 @@ h1 {
 }
 
 .feitjesfoto2 {
-    background-image: url(images/watertap2.jpg);
+    background-image: url(images/fles.jpg);
     min-height: 120px;
     background-attachment: fixed;
     background-position-x: center;
