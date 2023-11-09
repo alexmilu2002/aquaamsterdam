@@ -29,6 +29,7 @@ h1 {
     max-width: 150px;
     max-height: 150px;  
     margin: 1rem 0rem 0rem 7rem ;
+    display: block;
 }
 
 .tekst {
@@ -152,7 +153,7 @@ footer ul {
 }
 
 footer li a {
-    display: block;
+    display: inline-block;
     color: #E08426;
     text-align: center;
     text-decoration: none;
