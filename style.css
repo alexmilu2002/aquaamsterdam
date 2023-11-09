@@ -25,23 +25,22 @@ h1 {
     padding: 0.5rem;
 }
 
-
 .Logo1 {
     max-width: 150px;
     max-height: 150px;  
-    margin: 1rem 7rem ;
+    margin: 1rem 0rem 0rem 7rem ;
 }
 
-.welkomstekst {
+.tekst {
     background-color: white;
-    margin: 0rem 2rem;
+    margin: 1rem 2rem 2rem 2rem;
     border-radius: 5%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     padding: 1rem;
 }
 
 .feitjes {
-    margin: 2rem 0rem 7rem 0rem;
+    margin: 1rem 0rem 6rem 0rem;
 }
 
 .feitjes ul {
@@ -92,7 +91,7 @@ h1 {
 
 .map {
     max-width: 83%;
-    margin: 2rem 2rem 0rem 2rem;
+    margin: 1rem 2rem 0.4rem 2rem;
     padding: 0.3rem;
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -100,7 +99,7 @@ h1 {
 }
 .locatekst {
     background-color: white;
-    margin: 0rem 2rem 7rem;
+    margin: 0rem 2rem 6rem;
     padding: 1rem 1rem 1rem 2rem;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 5%;
@@ -116,6 +115,28 @@ h1 {
 
 .locaties ol li {
     padding: 0.2rem 0rem;
+}
+
+.interviewstekst{
+    margin: 2rem 2rem 6rem 2rem;
+    
+}
+
+.interviewstekst img{
+    max-width: 100%;
+    margin: 0.5rem 0rem;
+}
+
+h4{
+    margin-bottom: 0.5rem;
+}
+
+.it {
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5%;
+    padding: 1rem;
+    margin-bottom: 0.5rem;
 }
 
 footer {
